@@ -1,0 +1,8 @@
+.game-legend {
+    width: 200px;
+    padding: 10px;
+    border: 1px dotted white;
+    color: white;
+    background: black;
+    margin-right: 20px;
+}
