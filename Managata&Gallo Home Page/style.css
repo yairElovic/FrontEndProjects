@@ -80,7 +80,7 @@ section {
 }
 
 article {
-    flex: 1;
+    flex: .2;
     margin-right:10%;
     background-color: #f0f0f0;
 }
@@ -89,6 +89,7 @@ article {
     transition: transform 0.3s ease, box-shadow .3s ease;
     margin: 10px;
     padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -97,22 +98,35 @@ article {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Increase shadow */
 }
 
+.blogs > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 article > h2{
     text-align: center;
 }
 
 footer {
     display: flex;
+    align-items:center;
 }
 
-footer div {
+footer div{
     flex: 1;
 }
 
+
+.footer-content{
+    flex: 1;
+    text-align: right;
+    border-top: 1px solid black;
+}
+
 footer > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 50%;
     max-height: 50%;
 }
