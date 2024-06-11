@@ -57,6 +57,8 @@ nav ul {
     background-position: 50% 50%;
     background-image: url("images/hero.png");
     transition: transform 0.3s ease, box-shadow .3s ease;
+    overflow:hidden;
+    display:flex;
 }
 
 .big-image:hover{
@@ -64,10 +66,11 @@ nav ul {
 }
 
 .overlay{
-    position: absolute;
+    position: relative;
     top: 25%;
     left: 0;
     width: 40%;
+    max-width:100%;
 }
 
 section {
